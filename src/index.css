@@ -8,4 +8,11 @@
     * {
         @apply m-0 p-0 box-border font-JakartaSans;
     }
+
+    body {
+        @apply bg-VeryLightGrayishBlue min-h-screen flex justify-center items-start py-10;
+    }
+    main {
+        @apply w-screen max-w-xl bg-White rounded-lg py-8 px-6;
+    }
 }
