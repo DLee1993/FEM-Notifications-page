@@ -6,13 +6,46 @@
 
 @layer base {
     * {
-        @apply m-0 p-0 box-border font-JakartaSans;
+        @apply m-0 p-0 box-border font-JakartaSans text-[0.90rem] sm:text-base;
     }
 
     body {
-        @apply bg-VeryLightGrayishBlue min-h-screen flex justify-center items-start py-10;
+        @apply bg-VeryLightGrayishBlue min-h-screen flex justify-center items-center;
     }
     main {
-        @apply w-screen max-w-xl bg-White rounded-lg py-8 px-6;
+        @apply bg-White rounded-lg py-8 px-2 sm:px-5 max-w-[750px];
+    }
+
+    img {
+        @apply max-w-[3rem];
+    }
+}
+
+@layer components {
+    #user {
+        @apply capitalize;
+    }
+    #activity {
+        @apply inline-flex justify-center items-center gap-x-2;
+    }
+    #user,
+    #post,
+    #activity {
+        @apply hover:text-Blue cursor-pointer;
+    }
+    .comment {
+        @apply max-w-lg border-[1px] border-GrayishBlue hover:bg-LightGrayishBlue1 hover:cursor-pointer p-3 rounded mt-4;
+    }
+
+    .timeAgo {
+        @apply text-GrayishBlue text-sm mt-2 sm:mt-1;
+    }
+
+    .dot {
+        @apply block w-2 h-2 rounded-full;
+    }
+
+    .unread {
+        @apply bg-Red;
     }
 }
