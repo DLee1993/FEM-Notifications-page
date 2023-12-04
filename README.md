@@ -1,6 +1,6 @@
-# Frontend Mentor - Results summary component solution
+# Frontend Mentor - Notifications page component
 
-This is my solution to the -- challenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
+This is my solution to the -- challenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
 
 ## Table of contents
 
@@ -12,7 +12,7 @@ This is my solution to the -- challenge on [Frontend Mentor](https://www.fronten
 
 ## The challenge
 
-Your challenge is to build out this Nofitfications page component and get it looking as close to the design as possible.
+Your challenge is to build out this Notifications page component and get it looking as close to the design as possible.
 
 Your users should be able to:
 
@@ -27,7 +27,7 @@ Your users should be able to:
 
 ## Links
 
--   [Solution](https://frontendmentor.io/solutions/)
+-   [Solution](https://www.frontendmentor.io/solutions/responsive-notifications-page-with-mark-as-read-functionality-s6wFkXAvjK)
 -   [Live Site](https://dlee1993.github.io/FEM-Notifications-page/)
 
 ## Intro
