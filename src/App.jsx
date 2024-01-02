@@ -42,6 +42,7 @@ function App() {
                         unread ? "bg-VeryLightGrayishBlue" : null
                     }`}
                 >
+                    <h2 className="sr-only">user image</h2>
                     <img src={markWebber} alt="user profile image" />
                     <section className="ml-5">
                         <h2 className="sr-only">user info</h2>
@@ -61,6 +62,7 @@ function App() {
                         unread ? "bg-VeryLightGrayishBlue" : null
                     }`}
                 >
+                    <h2 className="sr-only">user image</h2>
                     <img src={angelaGray} alt="user profile image" />
                     <section className="ml-5">
                         <h2 className="sr-only">user info</h2>
@@ -79,6 +81,7 @@ function App() {
                         unread ? "bg-VeryLightGrayishBlue" : null
                     }`}
                 >
+                    <h2 className="sr-only">user image</h2>
                     <img src={jacobThompson} alt="user profile image" />
                     <section className="ml-5">
                         <h2 className="sr-only">user info</h2>
@@ -95,6 +98,7 @@ function App() {
                 </li>
                 <li className="w-full flex flex-col justify-center items-center px-6 py-3 rounded">
                     <section className="w-full flex justify-start items-center">
+                        <h2 className="sr-only">user image</h2>
                         <img src={rizkyHasanuddin} alt="user profile image" />
                         <section className="ml-5">
                             <h2 className="sr-only">user info</h2>
@@ -112,6 +116,7 @@ function App() {
                 </li>
                 <li className="w-full flex flex-col justify-center items-center px-6 py-3 rounded">
                     <section className="w-full flex justify-start items-center">
+                        <h2 className="sr-only">user image</h2>
                         <img src={kimberelySmith} alt="user profile image" />
                         <section className="ml-5">
                             <h2 className="sr-only">user info</h2>
@@ -129,6 +134,7 @@ function App() {
                     </section>
                 </li>
                 <li className="w-full flex justify-start items-center px-6 py-3 rounded">
+                    <h2 className="sr-only">user image</h2>
                     <img src={nathanPeterson} alt="user profile image" />
                     <section className="ml-5">
                         <h2 className="sr-only">user info</h2>
@@ -143,6 +149,7 @@ function App() {
                     </section>
                 </li>
                 <li className="w-full flex justify-start items-center px-6 py-3 rounded">
+                    <h2 className="sr-only">user image</h2>
                     <img src={annaKim} alt="user profile image" />
                     <section className="ml-5">
                         <h2 className="sr-only">user info</h2>
