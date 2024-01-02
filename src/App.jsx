@@ -19,7 +19,9 @@ function App() {
 
     return (
         <main>
+            <h1 className="sr-only">Notifications Page</h1>
             <section id="notification-bar" className="flex justify-between items-center mb-10">
+                <h2 className="sr-only">notification bar</h2>
                 <p className="text-lg font-extrabold flex justify-start">
                     Notifications
                     <span className="text-white bg-Blue rounded-md w-7 h-6 text-sm ml-3 flex justify-center items-center">
@@ -42,10 +44,11 @@ function App() {
                 >
                     <img src={markWebber} alt="user profile image" />
                     <section className="ml-5">
+                        <h2 className="sr-only">user info</h2>
                         <p>
-                            <strong id="user">mark webber</strong>
+                            <strong id="mark">mark webber</strong>
                             <span className="mx-2">reacted to your recent post</span>
-                            <strong id="activity">
+                            <strong id="tournament">
                                 My first tournament today!
                                 <span className={`dot ${unread && "unread"}`}></span>
                             </strong>
@@ -60,8 +63,9 @@ function App() {
                 >
                     <img src={angelaGray} alt="user profile image" />
                     <section className="ml-5">
+                        <h2 className="sr-only">user info</h2>
                         <p>
-                            <strong id="user">angela gray</strong>
+                            <strong id="angela">angela gray</strong>
                             <span className="mx-2">followed you</span>
                             <strong id="activity">
                                 <span className={`dot ${unread && "unread"}`}></span>
@@ -77,10 +81,11 @@ function App() {
                 >
                     <img src={jacobThompson} alt="user profile image" />
                     <section className="ml-5">
+                        <h2 className="sr-only">user info</h2>
                         <p>
-                            <strong id="user">jacob thompson</strong>
+                            <strong id="jacob">jacob thompson</strong>
                             <span className="mx-2">has joined your group</span>
-                            <strong id="activity">
+                            <strong id="chess">
                                 Chess Club
                                 <span className={`dot ${unread && "unread"}`}></span>
                             </strong>
@@ -92,8 +97,9 @@ function App() {
                     <section className="w-full flex justify-start items-center">
                         <img src={rizkyHasanuddin} alt="user profile image" />
                         <section className="ml-5">
+                            <h2 className="sr-only">user info</h2>
                             <p>
-                                <strong id="user">rizky hasanuddin</strong>
+                                <strong id="rizky">rizky hasanuddin</strong>
                                 <span className="mx-2">sent you a private message</span>
                             </p>
                             <p className="timeAgo">5 days ago</p>
@@ -108,8 +114,9 @@ function App() {
                     <section className="w-full flex justify-start items-center">
                         <img src={kimberelySmith} alt="user profile image" />
                         <section className="ml-5">
+                            <h2 className="sr-only">user info</h2>
                             <p>
-                                <strong id="user">kimberely smith</strong>
+                                <strong id="kimberely">kimberely smith</strong>
                                 <span className="mx-2">commented on your picture</span>
                             </p>
                             <p className="timeAgo">1 week ago</p>
@@ -124,10 +131,11 @@ function App() {
                 <li className="w-full flex justify-start items-center px-6 py-3 rounded">
                     <img src={nathanPeterson} alt="user profile image" />
                     <section className="ml-5">
+                        <h2 className="sr-only">user info</h2>
                         <p>
-                            <strong id="user">nathan peterson</strong>
+                            <strong id="nathan">nathan peterson</strong>
                             <span className="mx-2">reacted to your recent post</span>
-                            <strong id="post">
+                            <strong id="blog">
                                 5 end-game strategies to increase your win rate
                             </strong>
                         </p>
@@ -137,10 +145,11 @@ function App() {
                 <li className="w-full flex justify-start items-center px-6 py-3 rounded">
                     <img src={annaKim} alt="user profile image" />
                     <section className="ml-5">
+                        <h2 className="sr-only">user info</h2>
                         <p className="flex gap-x-1 justify-start items-center flex-wrap">
-                            <strong id="user">angela gray</strong>
+                            <strong id="angela_2">angela gray</strong>
                             <span>left the group</span>
-                            <strong id="activity">Chess Club</strong>
+                            <strong id="chess_2">Chess Club</strong>
                         </p>
                         <p className="timeAgo">2 weeks ago</p>
                     </section>
